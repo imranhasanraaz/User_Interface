@@ -1,0 +1,714 @@
+2023-05-01 11:57:31 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2023-05-01 11:57:31 DEBUG - Using Log4J2 as the default logging framework
+2023-05-01 11:57:31 DEBUG - -Dio.netty.leakDetection.level: simple
+2023-05-01 11:57:31 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2023-05-01 11:57:31 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2d38edfd
+2023-05-01 11:57:31 DEBUG - -Dio.netty.noUnsafe: false
+2023-05-01 11:57:31 DEBUG - Java version: 17
+2023-05-01 11:57:31 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2023-05-01 11:57:31 DEBUG - sun.misc.Unsafe.copyMemory: available
+2023-05-01 11:57:31 DEBUG - sun.misc.Unsafe.storeFence: available
+2023-05-01 11:57:31 DEBUG - java.nio.Buffer.address: available
+2023-05-01 11:57:31 DEBUG - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-05-01 11:57:31 DEBUG - java.nio.Bits.unaligned: available, true
+2023-05-01 11:57:31 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9f70c54
+2023-05-01 11:57:31 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-05-01 11:57:31 DEBUG - sun.misc.Unsafe: available
+2023-05-01 11:57:31 DEBUG - maxDirectMemory: 2116026368 bytes (maybe)
+2023-05-01 11:57:31 DEBUG - -Dio.netty.tmpdir: C:\Users\imran\AppData\Local\Temp (java.io.tmpdir)
+2023-05-01 11:57:31 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-05-01 11:57:31 DEBUG - Platform: Windows
+2023-05-01 11:57:31 DEBUG - -Dio.netty.maxDirectMemory: -1 bytes
+2023-05-01 11:57:31 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-05-01 11:57:31 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2023-05-01 11:57:31 DEBUG - -Dio.netty.noPreferDirect: false
+2023-05-01 11:57:31 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2023-05-01 11:57:31 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-05-01 11:57:31 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-05-01 11:57:31 DEBUG - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-05-01 11:57:31 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-05-01 11:57:31 DEBUG - -Dio.netty.eventLoopThreads: 8
+2023-05-01 11:57:31 DEBUG - -Dio.netty.noKeySetOptimization: false
+2023-05-01 11:57:31 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-05-01 11:57:31 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2023-05-01 11:57:31 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2023-05-01 11:57:31 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2023-05-01 11:57:31 DEBUG - -Dio.netty.allocator.maxOrder: 9
+2023-05-01 11:57:31 DEBUG - -Dio.netty.allocator.chunkSize: 4194304
+2023-05-01 11:57:31 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2023-05-01 11:57:31 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2023-05-01 11:57:31 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-05-01 11:57:31 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-05-01 11:57:31 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-05-01 11:57:31 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-05-01 11:57:31 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-05-01 11:57:31 DEBUG - -Dio.netty.allocator.type: pooled
+2023-05-01 11:57:31 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-05-01 11:57:31 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-05-01 11:57:32 DEBUG - -Dio.netty.processId: 9532 (auto-detected)
+2023-05-01 11:57:32 DEBUG - -Djava.net.preferIPv4Stack: false
+2023-05-01 11:57:32 DEBUG - -Djava.net.preferIPv6Addresses: false
+2023-05-01 11:57:32 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-05-01 11:57:32 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-05-01 11:57:32 DEBUG - -Dio.netty.machineId: 64:80:99:ff:fe:d8:bc:e2 (auto-detected)
+2023-05-01 11:57:32 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2023-05-01 11:57:32 DEBUG - -Dio.netty.buffer.checkBounds: true
+2023-05-01 11:57:32 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@9f10e68
+2023-05-01 11:57:32 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-05-01 11:57:32 DEBUG - -Dio.netty.recycler.ratio: 8
+2023-05-01 11:57:32 DEBUG - -Dio.netty.recycler.chunkSize: 32
+2023-05-01 11:57:32 DEBUG - -Dio.netty.recycler.blocking: false
+2023-05-01 11:57:33 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-05-01 11:57:34 DEBUG - -Dio.netty.initialSeedUniquifier: 0x19383c6554ee7e1d
+2023-05-01 11:57:34 DEBUG - Set '15' timeout in seconds for loading of pages
+2023-05-01 11:57:34 DEBUG - Set async javascript execution timeout '10' in seconds
+2023-05-01 11:57:34 INFO  - Browser 'CHROME' ready...
+2023-05-01 11:57:34 INFO  - Maximizing browser window
+2023-05-01 11:57:34 INFO  - Navigate to url - 'https://userinyerface.com/'
+2023-05-01 11:57:37 INFO  - Waiting for page to load
+2023-05-01 11:57:37 INFO  - Login Page Test starting
+2023-05-01 11:57:37 INFO  - Button 'Start Button' :: Clicking
+2023-05-01 11:57:38 INFO  - Waiting for page to load
+2023-05-01 11:57:38 INFO  - First Login Page Test starting
+2023-05-01 11:57:38 INFO  - Input Login Info
+2023-05-01 11:57:38 INFO  - Text Field 'Password Fields' :: Clearing
+2023-05-01 11:57:38 INFO  - Text Field 'Password Fields' :: Typing 'nTTTtg1Mбj8'
+2023-05-01 11:57:38 INFO  - Text Field 'Email Field' :: Clearing
+2023-05-01 11:57:38 INFO  - Text Field 'Email Field' :: Typing 'YOzevuDDtg'
+2023-05-01 11:57:38 INFO  - Text Field 'Domain Field' :: Clearing
+2023-05-01 11:57:38 INFO  - Text Field 'Domain Field' :: Typing 'gmail'
+2023-05-01 11:57:39 INFO  - Button 'Drop Down' :: Clicking
+2023-05-01 11:57:39 INFO  - ComboBox 'element 4' :: Clicking
+2023-05-01 11:57:39 INFO  - CheckBox 'Check Box' :: Clicking
+2023-05-01 11:57:39 INFO  - Button 'Next Button' :: Clicking
+2023-05-01 11:57:39 INFO  - Second Login Page Test starting
+2023-05-01 11:57:39 INFO  - Button 'Upload Image Button' :: Clicking
+2023-05-01 11:57:39 INFO  - Waiting for page to load
+2023-05-01 11:57:43 INFO  - CheckBox 'Unselect All' :: Scrolling via JavaScript
+2023-05-01 11:57:43 INFO  - CheckBox 'Unselect All' :: Clicking
+2023-05-01 11:57:43 INFO  - CheckBox 'element 4' :: Clicking
+2023-05-01 11:57:43 INFO  - CheckBox 'element 17' :: Clicking
+2023-05-01 11:57:43 INFO  - CheckBox 'element 7' :: Clicking
+2023-05-01 11:57:43 INFO  - Button 'Next Button' :: Clicking
+2023-05-01 11:57:44 INFO  - Third Login Page Test starting
+2023-05-01 11:57:44 INFO  - Login Page Successfully Tested
+2023-05-01 12:04:45 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2023-05-01 12:04:45 DEBUG - Using Log4J2 as the default logging framework
+2023-05-01 12:04:45 DEBUG - -Dio.netty.leakDetection.level: simple
+2023-05-01 12:04:45 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2023-05-01 12:04:45 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@782be4eb
+2023-05-01 12:04:45 DEBUG - -Dio.netty.noUnsafe: false
+2023-05-01 12:04:45 DEBUG - Java version: 17
+2023-05-01 12:04:45 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2023-05-01 12:04:45 DEBUG - sun.misc.Unsafe.copyMemory: available
+2023-05-01 12:04:45 DEBUG - sun.misc.Unsafe.storeFence: available
+2023-05-01 12:04:45 DEBUG - java.nio.Buffer.address: available
+2023-05-01 12:04:45 DEBUG - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-05-01 12:04:45 DEBUG - java.nio.Bits.unaligned: available, true
+2023-05-01 12:04:45 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @47f6473
+2023-05-01 12:04:45 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-05-01 12:04:45 DEBUG - sun.misc.Unsafe: available
+2023-05-01 12:04:45 DEBUG - maxDirectMemory: 2116026368 bytes (maybe)
+2023-05-01 12:04:45 DEBUG - -Dio.netty.tmpdir: C:\Users\imran\AppData\Local\Temp (java.io.tmpdir)
+2023-05-01 12:04:45 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-05-01 12:04:45 DEBUG - Platform: Windows
+2023-05-01 12:04:45 DEBUG - -Dio.netty.maxDirectMemory: -1 bytes
+2023-05-01 12:04:45 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-05-01 12:04:45 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2023-05-01 12:04:45 DEBUG - -Dio.netty.noPreferDirect: false
+2023-05-01 12:04:45 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2023-05-01 12:04:45 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-05-01 12:04:45 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-05-01 12:04:45 DEBUG - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-05-01 12:04:45 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-05-01 12:04:45 DEBUG - -Dio.netty.eventLoopThreads: 8
+2023-05-01 12:04:45 DEBUG - -Dio.netty.noKeySetOptimization: false
+2023-05-01 12:04:45 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-05-01 12:04:45 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2023-05-01 12:04:45 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2023-05-01 12:04:45 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2023-05-01 12:04:45 DEBUG - -Dio.netty.allocator.maxOrder: 9
+2023-05-01 12:04:45 DEBUG - -Dio.netty.allocator.chunkSize: 4194304
+2023-05-01 12:04:45 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2023-05-01 12:04:45 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2023-05-01 12:04:45 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-05-01 12:04:45 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-05-01 12:04:45 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-05-01 12:04:45 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-05-01 12:04:45 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-05-01 12:04:45 DEBUG - -Dio.netty.allocator.type: pooled
+2023-05-01 12:04:45 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-05-01 12:04:45 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-05-01 12:04:47 DEBUG - -Dio.netty.processId: 3756 (auto-detected)
+2023-05-01 12:04:47 DEBUG - -Djava.net.preferIPv4Stack: false
+2023-05-01 12:04:47 DEBUG - -Djava.net.preferIPv6Addresses: false
+2023-05-01 12:04:47 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-05-01 12:04:47 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-05-01 12:04:47 DEBUG - -Dio.netty.machineId: 64:80:99:ff:fe:d8:bc:e2 (auto-detected)
+2023-05-01 12:04:47 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2023-05-01 12:04:47 DEBUG - -Dio.netty.buffer.checkBounds: true
+2023-05-01 12:04:47 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2b8578d6
+2023-05-01 12:04:47 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-05-01 12:04:47 DEBUG - -Dio.netty.recycler.ratio: 8
+2023-05-01 12:04:47 DEBUG - -Dio.netty.recycler.chunkSize: 32
+2023-05-01 12:04:47 DEBUG - -Dio.netty.recycler.blocking: false
+2023-05-01 12:04:48 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-05-01 12:04:48 DEBUG - -Dio.netty.initialSeedUniquifier: 0x3a162fe3d70a2a4a
+2023-05-01 12:04:49 DEBUG - Set '15' timeout in seconds for loading of pages
+2023-05-01 12:04:49 DEBUG - Set async javascript execution timeout '10' in seconds
+2023-05-01 12:04:49 INFO  - Browser 'CHROME' ready...
+2023-05-01 12:04:49 INFO  - Maximizing browser window
+2023-05-01 12:04:49 INFO  - Navigate to url - 'https://userinyerface.com/'
+2023-05-01 12:05:55 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2023-05-01 12:05:55 DEBUG - Using Log4J2 as the default logging framework
+2023-05-01 12:05:55 DEBUG - -Dio.netty.leakDetection.level: simple
+2023-05-01 12:05:55 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2023-05-01 12:05:55 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@78c1372d
+2023-05-01 12:05:55 DEBUG - -Dio.netty.noUnsafe: false
+2023-05-01 12:05:55 DEBUG - Java version: 17
+2023-05-01 12:05:55 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2023-05-01 12:05:55 DEBUG - sun.misc.Unsafe.copyMemory: available
+2023-05-01 12:05:55 DEBUG - sun.misc.Unsafe.storeFence: available
+2023-05-01 12:05:55 DEBUG - java.nio.Buffer.address: available
+2023-05-01 12:05:55 DEBUG - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-05-01 12:05:55 DEBUG - java.nio.Bits.unaligned: available, true
+2023-05-01 12:05:55 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3a03464
+2023-05-01 12:05:55 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-05-01 12:05:55 DEBUG - sun.misc.Unsafe: available
+2023-05-01 12:05:55 DEBUG - maxDirectMemory: 2116026368 bytes (maybe)
+2023-05-01 12:05:55 DEBUG - -Dio.netty.tmpdir: C:\Users\imran\AppData\Local\Temp (java.io.tmpdir)
+2023-05-01 12:05:55 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-05-01 12:05:55 DEBUG - Platform: Windows
+2023-05-01 12:05:55 DEBUG - -Dio.netty.maxDirectMemory: -1 bytes
+2023-05-01 12:05:55 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-05-01 12:05:55 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2023-05-01 12:05:55 DEBUG - -Dio.netty.noPreferDirect: false
+2023-05-01 12:05:55 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2023-05-01 12:05:55 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-05-01 12:05:55 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-05-01 12:05:55 DEBUG - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-05-01 12:05:55 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-05-01 12:05:55 DEBUG - -Dio.netty.eventLoopThreads: 8
+2023-05-01 12:05:55 DEBUG - -Dio.netty.noKeySetOptimization: false
+2023-05-01 12:05:55 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-05-01 12:05:55 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2023-05-01 12:05:55 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2023-05-01 12:05:55 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2023-05-01 12:05:55 DEBUG - -Dio.netty.allocator.maxOrder: 9
+2023-05-01 12:05:55 DEBUG - -Dio.netty.allocator.chunkSize: 4194304
+2023-05-01 12:05:55 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2023-05-01 12:05:55 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2023-05-01 12:05:55 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-05-01 12:05:55 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-05-01 12:05:55 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-05-01 12:05:55 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-05-01 12:05:55 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-05-01 12:05:55 DEBUG - -Dio.netty.allocator.type: pooled
+2023-05-01 12:05:55 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-05-01 12:05:55 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-05-01 12:05:56 DEBUG - -Dio.netty.processId: 15120 (auto-detected)
+2023-05-01 12:05:56 DEBUG - -Djava.net.preferIPv4Stack: false
+2023-05-01 12:05:56 DEBUG - -Djava.net.preferIPv6Addresses: false
+2023-05-01 12:05:56 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-05-01 12:05:56 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-05-01 12:05:56 DEBUG - -Dio.netty.machineId: 64:80:99:ff:fe:d8:bc:e2 (auto-detected)
+2023-05-01 12:05:56 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2023-05-01 12:05:56 DEBUG - -Dio.netty.buffer.checkBounds: true
+2023-05-01 12:05:56 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@59210ff
+2023-05-01 12:05:56 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-05-01 12:05:56 DEBUG - -Dio.netty.recycler.ratio: 8
+2023-05-01 12:05:56 DEBUG - -Dio.netty.recycler.chunkSize: 32
+2023-05-01 12:05:56 DEBUG - -Dio.netty.recycler.blocking: false
+2023-05-01 12:05:57 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-05-01 12:05:57 DEBUG - -Dio.netty.initialSeedUniquifier: 0x418e7e4a34f98ef3
+2023-05-01 12:05:57 DEBUG - Set '15' timeout in seconds for loading of pages
+2023-05-01 12:05:57 DEBUG - Set async javascript execution timeout '10' in seconds
+2023-05-01 12:05:57 INFO  - Browser 'CHROME' ready...
+2023-05-01 12:05:57 INFO  - Maximizing browser window
+2023-05-01 12:05:57 INFO  - Navigate to url - 'https://userinyerface.com/'
+2023-05-01 12:05:59 INFO  - Waiting for page to load
+2023-05-01 12:05:59 INFO  - Login Page Test starting
+2023-05-01 12:05:59 INFO  - Button 'Start Button' :: Clicking
+2023-05-01 12:06:00 INFO  - Waiting for page to load
+2023-05-01 12:06:00 INFO  - First Login Page Test starting
+2023-05-01 12:06:00 INFO  - Input Login Info
+2023-05-01 12:06:00 INFO  - Text Field 'Password Fields' :: Clearing
+2023-05-01 12:06:00 INFO  - Text Field 'Password Fields' :: Typing 'xaFEXECXл32'
+2023-05-01 12:06:01 INFO  - Text Field 'Email Field' :: Clearing
+2023-05-01 12:06:01 INFO  - Text Field 'Email Field' :: Typing 'jhaWiVsoql'
+2023-05-01 12:06:01 INFO  - Text Field 'Domain Field' :: Clearing
+2023-05-01 12:06:01 INFO  - Text Field 'Domain Field' :: Typing 'gmail'
+2023-05-01 12:06:01 INFO  - Button 'Drop Down' :: Clicking
+2023-05-01 12:06:01 INFO  - ComboBox 'element 10' :: Clicking
+2023-05-01 12:06:01 INFO  - CheckBox 'Check Box' :: Clicking
+2023-05-01 12:06:02 INFO  - Button 'Next Button' :: Clicking
+2023-05-01 12:06:02 INFO  - Second Login Page Test starting
+2023-05-01 12:06:02 INFO  - Button 'Upload Image Button' :: Clicking
+2023-05-01 12:06:02 INFO  - Waiting for page to load
+2023-05-01 12:06:05 INFO  - CheckBox 'Unselect All' :: Scrolling via JavaScript
+2023-05-01 12:06:06 INFO  - CheckBox 'Unselect All' :: Clicking
+2023-05-01 12:06:06 INFO  - CheckBox 'element 16' :: Clicking
+2023-05-01 12:06:06 INFO  - CheckBox 'element 9' :: Clicking
+2023-05-01 12:06:06 INFO  - CheckBox 'element 4' :: Clicking
+2023-05-01 12:06:06 INFO  - Button 'Next Button' :: Clicking
+2023-05-01 12:06:07 INFO  - Third Login Page Test starting
+2023-05-01 12:06:07 INFO  - Login Page Successfully Tested
+2023-05-01 12:12:09 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2023-05-01 12:12:09 DEBUG - Using Log4J2 as the default logging framework
+2023-05-01 12:12:09 DEBUG - -Dio.netty.leakDetection.level: simple
+2023-05-01 12:12:09 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2023-05-01 12:12:09 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@73d4066e
+2023-05-01 12:12:09 DEBUG - -Dio.netty.noUnsafe: false
+2023-05-01 12:12:09 DEBUG - Java version: 17
+2023-05-01 12:12:09 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2023-05-01 12:12:09 DEBUG - sun.misc.Unsafe.copyMemory: available
+2023-05-01 12:12:09 DEBUG - sun.misc.Unsafe.storeFence: available
+2023-05-01 12:12:09 DEBUG - java.nio.Buffer.address: available
+2023-05-01 12:12:09 DEBUG - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-05-01 12:12:09 DEBUG - java.nio.Bits.unaligned: available, true
+2023-05-01 12:12:09 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @47f6473
+2023-05-01 12:12:09 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-05-01 12:12:09 DEBUG - sun.misc.Unsafe: available
+2023-05-01 12:12:09 DEBUG - maxDirectMemory: 2116026368 bytes (maybe)
+2023-05-01 12:12:09 DEBUG - -Dio.netty.tmpdir: C:\Users\imran\AppData\Local\Temp (java.io.tmpdir)
+2023-05-01 12:12:09 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-05-01 12:12:09 DEBUG - Platform: Windows
+2023-05-01 12:12:09 DEBUG - -Dio.netty.maxDirectMemory: -1 bytes
+2023-05-01 12:12:09 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-05-01 12:12:09 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2023-05-01 12:12:09 DEBUG - -Dio.netty.noPreferDirect: false
+2023-05-01 12:12:09 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2023-05-01 12:12:09 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-05-01 12:12:09 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-05-01 12:12:09 DEBUG - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-05-01 12:12:09 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-05-01 12:12:09 DEBUG - -Dio.netty.eventLoopThreads: 8
+2023-05-01 12:12:09 DEBUG - -Dio.netty.noKeySetOptimization: false
+2023-05-01 12:12:09 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-05-01 12:12:09 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2023-05-01 12:12:09 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2023-05-01 12:12:09 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2023-05-01 12:12:09 DEBUG - -Dio.netty.allocator.maxOrder: 9
+2023-05-01 12:12:09 DEBUG - -Dio.netty.allocator.chunkSize: 4194304
+2023-05-01 12:12:09 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2023-05-01 12:12:09 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2023-05-01 12:12:09 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-05-01 12:12:09 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-05-01 12:12:09 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-05-01 12:12:09 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-05-01 12:12:09 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-05-01 12:12:10 DEBUG - -Dio.netty.allocator.type: pooled
+2023-05-01 12:12:10 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-05-01 12:12:10 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-05-01 12:12:10 DEBUG - -Dio.netty.processId: 17024 (auto-detected)
+2023-05-01 12:12:10 DEBUG - -Djava.net.preferIPv4Stack: false
+2023-05-01 12:12:10 DEBUG - -Djava.net.preferIPv6Addresses: false
+2023-05-01 12:12:10 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-05-01 12:12:10 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-05-01 12:12:10 DEBUG - -Dio.netty.machineId: 64:80:99:ff:fe:d8:bc:e2 (auto-detected)
+2023-05-01 12:12:10 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2023-05-01 12:12:10 DEBUG - -Dio.netty.buffer.checkBounds: true
+2023-05-01 12:12:10 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@61eaa111
+2023-05-01 12:12:10 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-05-01 12:12:10 DEBUG - -Dio.netty.recycler.ratio: 8
+2023-05-01 12:12:10 DEBUG - -Dio.netty.recycler.chunkSize: 32
+2023-05-01 12:12:10 DEBUG - -Dio.netty.recycler.blocking: false
+2023-05-01 12:12:11 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-05-01 12:12:11 DEBUG - -Dio.netty.initialSeedUniquifier: 0x6875d81ff27ffac9
+2023-05-01 12:12:11 DEBUG - Set '15' timeout in seconds for loading of pages
+2023-05-01 12:12:11 DEBUG - Set async javascript execution timeout '10' in seconds
+2023-05-01 12:12:11 INFO  - Browser 'CHROME' ready...
+2023-05-01 12:12:11 INFO  - Maximizing browser window
+2023-05-01 12:12:12 INFO  - Navigate to url - 'https://userinyerface.com/'
+2023-05-01 12:12:14 INFO  - Waiting for page to load
+2023-05-01 12:12:14 INFO  - Login Page Test starting
+2023-05-01 12:12:14 INFO  - Button 'Start Button' :: Clicking
+2023-05-01 12:12:15 INFO  - Waiting for page to load
+2023-05-01 12:12:15 INFO  - First Login Page Test starting
+2023-05-01 12:12:15 INFO  - Input Login Info
+2023-05-01 12:12:15 INFO  - Text Field 'Password Fields' :: Clearing
+2023-05-01 12:12:15 INFO  - Text Field 'Password Fields' :: Typing 'PmCрeYL8Gd8'
+2023-05-01 12:12:15 INFO  - Text Field 'Email Field' :: Clearing
+2023-05-01 12:12:15 INFO  - Text Field 'Email Field' :: Typing 'aF5DYOgsp7'
+2023-05-01 12:12:15 INFO  - Text Field 'Domain Field' :: Clearing
+2023-05-01 12:12:15 INFO  - Text Field 'Domain Field' :: Typing 'yahoo'
+2023-05-01 12:12:16 INFO  - Button 'Drop Down' :: Clicking
+2023-05-01 12:12:16 INFO  - ComboBox 'element 1' :: Clicking
+2023-05-01 12:12:16 INFO  - CheckBox 'Check Box' :: Clicking
+2023-05-01 12:12:16 INFO  - Button 'Next Button' :: Clicking
+2023-05-01 12:12:16 INFO  - Second Login Page Test starting
+2023-05-01 12:12:16 DEBUG - No elements with locator 'By.xpath: //div[@class='page-indicator' and contains(text(), '2 / 4')]' were found in DISPLAYED state
+2023-05-01 12:12:16 INFO  - Maximizing browser window
+2023-05-01 12:12:16 INFO  - Navigate to url - 'https://userinyerface.com/'
+2023-05-01 12:12:17 INFO  - Waiting for page to load
+2023-05-01 12:12:17 INFO  - Hide Help Test starting
+2023-05-01 12:12:17 INFO  - Button 'Start Button' :: Clicking
+2023-05-01 12:12:17 INFO  - Waiting for page to load
+2023-05-01 12:12:17 INFO  - Button 'Send To Bottom Button' :: Clicking
+2023-05-01 12:12:17 INFO  - Text Field 'Hidden Help Form' :: Waiting for element to be invisible or absent
+2023-05-01 12:12:21 DEBUG - No elements with locator 'By.xpath: //h2[contains(@class, 'help-form__title')]' were found in DISPLAYED state
+2023-05-01 12:12:21 INFO  - Hide Help Successfully Tested
+2023-05-01 12:12:21 INFO  - Maximizing browser window
+2023-05-01 12:12:21 INFO  - Maximizing browser window
+2023-05-01 12:12:34 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2023-05-01 12:12:34 DEBUG - Using Log4J2 as the default logging framework
+2023-05-01 12:12:34 DEBUG - -Dio.netty.leakDetection.level: simple
+2023-05-01 12:12:34 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2023-05-01 12:12:34 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5555ffcf
+2023-05-01 12:12:35 DEBUG - -Dio.netty.noUnsafe: false
+2023-05-01 12:12:35 DEBUG - Java version: 17
+2023-05-01 12:12:35 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2023-05-01 12:12:35 DEBUG - sun.misc.Unsafe.copyMemory: available
+2023-05-01 12:12:35 DEBUG - sun.misc.Unsafe.storeFence: available
+2023-05-01 12:12:35 DEBUG - java.nio.Buffer.address: available
+2023-05-01 12:12:35 DEBUG - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-05-01 12:12:35 DEBUG - java.nio.Bits.unaligned: available, true
+2023-05-01 12:12:35 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @67b6d4ae
+2023-05-01 12:12:35 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-05-01 12:12:35 DEBUG - sun.misc.Unsafe: available
+2023-05-01 12:12:35 DEBUG - maxDirectMemory: 2116026368 bytes (maybe)
+2023-05-01 12:12:35 DEBUG - -Dio.netty.tmpdir: C:\Users\imran\AppData\Local\Temp (java.io.tmpdir)
+2023-05-01 12:12:35 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-05-01 12:12:35 DEBUG - Platform: Windows
+2023-05-01 12:12:35 DEBUG - -Dio.netty.maxDirectMemory: -1 bytes
+2023-05-01 12:12:35 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-05-01 12:12:35 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2023-05-01 12:12:35 DEBUG - -Dio.netty.noPreferDirect: false
+2023-05-01 12:12:35 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2023-05-01 12:12:35 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-05-01 12:12:35 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-05-01 12:12:35 DEBUG - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-05-01 12:12:35 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-05-01 12:12:35 DEBUG - -Dio.netty.eventLoopThreads: 8
+2023-05-01 12:12:35 DEBUG - -Dio.netty.noKeySetOptimization: false
+2023-05-01 12:12:35 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-05-01 12:12:35 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2023-05-01 12:12:35 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2023-05-01 12:12:35 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2023-05-01 12:12:35 DEBUG - -Dio.netty.allocator.maxOrder: 9
+2023-05-01 12:12:35 DEBUG - -Dio.netty.allocator.chunkSize: 4194304
+2023-05-01 12:12:35 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2023-05-01 12:12:35 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2023-05-01 12:12:35 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-05-01 12:12:35 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-05-01 12:12:35 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-05-01 12:12:35 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-05-01 12:12:35 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-05-01 12:12:35 DEBUG - -Dio.netty.allocator.type: pooled
+2023-05-01 12:12:35 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-05-01 12:12:35 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-05-01 12:12:35 DEBUG - -Dio.netty.processId: 21784 (auto-detected)
+2023-05-01 12:12:35 DEBUG - -Djava.net.preferIPv4Stack: false
+2023-05-01 12:12:35 DEBUG - -Djava.net.preferIPv6Addresses: false
+2023-05-01 12:12:35 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-05-01 12:12:35 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-05-01 12:12:35 DEBUG - -Dio.netty.machineId: 64:80:99:ff:fe:d8:bc:e2 (auto-detected)
+2023-05-01 12:12:36 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2023-05-01 12:12:36 DEBUG - -Dio.netty.buffer.checkBounds: true
+2023-05-01 12:12:36 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4f78e96d
+2023-05-01 12:12:36 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-05-01 12:12:36 DEBUG - -Dio.netty.recycler.ratio: 8
+2023-05-01 12:12:36 DEBUG - -Dio.netty.recycler.chunkSize: 32
+2023-05-01 12:12:36 DEBUG - -Dio.netty.recycler.blocking: false
+2023-05-01 12:12:37 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-05-01 12:12:37 DEBUG - -Dio.netty.initialSeedUniquifier: 0x4b0fcc4e1a47721b
+2023-05-01 12:12:37 DEBUG - Set '15' timeout in seconds for loading of pages
+2023-05-01 12:12:37 DEBUG - Set async javascript execution timeout '10' in seconds
+2023-05-01 12:12:37 INFO  - Browser 'CHROME' ready...
+2023-05-01 12:12:37 INFO  - Maximizing browser window
+2023-05-01 12:12:37 INFO  - Navigate to url - 'https://userinyerface.com/'
+2023-05-01 12:12:39 INFO  - Waiting for page to load
+2023-05-01 12:12:39 INFO  - Login Page Test starting
+2023-05-01 12:12:39 INFO  - Button 'Start Button' :: Clicking
+2023-05-01 12:12:40 INFO  - Waiting for page to load
+2023-05-01 12:12:40 INFO  - First Login Page Test starting
+2023-05-01 12:12:40 INFO  - Input Login Info
+2023-05-01 12:12:40 INFO  - Text Field 'Password Fields' :: Clearing
+2023-05-01 12:12:40 INFO  - Text Field 'Password Fields' :: Typing 'gаvvquD3cH9'
+2023-05-01 12:12:40 INFO  - Text Field 'Email Field' :: Clearing
+2023-05-01 12:12:40 INFO  - Text Field 'Email Field' :: Typing 'TGA01ddGhB'
+2023-05-01 12:12:41 INFO  - Text Field 'Domain Field' :: Clearing
+2023-05-01 12:12:41 INFO  - Text Field 'Domain Field' :: Typing 'gmail'
+2023-05-01 12:12:41 INFO  - Button 'Drop Down' :: Clicking
+2023-05-01 12:12:41 INFO  - ComboBox 'element 8' :: Clicking
+2023-05-01 12:12:41 INFO  - CheckBox 'Check Box' :: Clicking
+2023-05-01 12:12:41 INFO  - Button 'Next Button' :: Clicking
+2023-05-01 12:12:41 INFO  - Second Login Page Test starting
+2023-05-01 12:12:41 INFO  - Button 'Upload Image Button' :: Clicking
+2023-05-01 12:12:42 INFO  - Waiting for page to load
+2023-05-01 12:12:45 INFO  - CheckBox 'Unselect All' :: Scrolling via JavaScript
+2023-05-01 12:12:45 INFO  - CheckBox 'Unselect All' :: Clicking
+2023-05-01 12:12:45 INFO  - CheckBox 'element 15' :: Clicking
+2023-05-01 12:12:45 INFO  - CheckBox 'element 6' :: Clicking
+2023-05-01 12:12:45 INFO  - CheckBox 'element 7' :: Clicking
+2023-05-01 12:12:45 INFO  - Button 'Next Button' :: Clicking
+2023-05-01 12:12:46 INFO  - Third Login Page Test starting
+2023-05-01 12:12:46 INFO  - Login Page Successfully Tested
+2023-05-01 12:12:46 INFO  - Maximizing browser window
+2023-05-01 12:12:46 INFO  - Navigate to url - 'https://userinyerface.com/'
+2023-05-01 12:12:46 INFO  - Waiting for page to load
+2023-05-01 12:12:46 INFO  - Hide Help Test starting
+2023-05-01 12:12:46 INFO  - Button 'Start Button' :: Clicking
+2023-05-01 12:12:46 INFO  - Waiting for page to load
+2023-05-01 12:12:46 INFO  - Button 'Send To Bottom Button' :: Clicking
+2023-05-01 12:12:46 INFO  - Text Field 'Hidden Help Form' :: Waiting for element to be invisible or absent
+2023-05-01 12:12:58 DEBUG - Elements were found by locator 'By.xpath: //h2[contains(@class, 'help-form__title')]' but not in desired state DISPLAYED
+2023-05-01 12:12:58 INFO  - Hide Help Successfully Tested
+2023-05-01 12:12:58 INFO  - Maximizing browser window
+2023-05-01 12:12:58 INFO  - Navigate to url - 'https://userinyerface.com/'
+2023-05-01 12:12:58 INFO  - Waiting for page to load
+2023-05-01 12:12:58 INFO  - Accept Cookies Test starting
+2023-05-01 12:12:58 INFO  - Button 'Start Button' :: Clicking
+2023-05-01 12:12:58 INFO  - Waiting for page to load
+2023-05-01 12:12:58 INFO  - Label 'Cookies Form' :: Waiting for element to be displayed
+2023-05-01 12:13:00 INFO  - Button 'Accept Cookies Button' :: Clicking
+2023-05-01 12:13:00 DEBUG - No elements with locator 'By.className: cookies' were found in DISPLAYED state
+2023-05-01 12:13:00 INFO  - Accept Cookies Successfully Tested
+2023-05-01 12:13:00 INFO  - Maximizing browser window
+2023-05-01 12:13:00 INFO  - Navigate to url - 'https://userinyerface.com/'
+2023-05-01 12:13:00 INFO  - Waiting for page to load
+2023-05-01 12:13:00 INFO  - Timer Test starting
+2023-05-01 12:13:00 INFO  - Label 'homepage' :: Waiting for element to be displayed
+2023-05-01 12:13:00 INFO  - Button 'Start Button' :: Clicking
+2023-05-01 12:13:01 INFO  - Waiting for page to load
+2023-05-01 12:13:01 INFO  - Label 'First Login Page' :: Waiting for element to be displayed
+2023-05-01 12:13:01 INFO  - Text Field 'Timer Box' :: Getting text from element
+2023-05-01 12:13:01 INFO  - Text Field 'Timer Box' :: Element's text: [00:00:00]
+2023-05-01 12:13:01 INFO  - Timer successfully Tested
+2023-05-01 13:15:09 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2023-05-01 13:15:09 DEBUG - Using Log4J2 as the default logging framework
+2023-05-01 13:15:10 DEBUG - -Dio.netty.leakDetection.level: simple
+2023-05-01 13:15:10 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2023-05-01 13:15:10 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2e73d5eb
+2023-05-01 13:15:10 DEBUG - -Dio.netty.noUnsafe: false
+2023-05-01 13:15:10 DEBUG - Java version: 17
+2023-05-01 13:15:10 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2023-05-01 13:15:10 DEBUG - sun.misc.Unsafe.copyMemory: available
+2023-05-01 13:15:10 DEBUG - sun.misc.Unsafe.storeFence: available
+2023-05-01 13:15:10 DEBUG - java.nio.Buffer.address: available
+2023-05-01 13:15:10 DEBUG - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-05-01 13:15:10 DEBUG - java.nio.Bits.unaligned: available, true
+2023-05-01 13:15:10 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @6df97b55
+2023-05-01 13:15:10 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-05-01 13:15:10 DEBUG - sun.misc.Unsafe: available
+2023-05-01 13:15:10 DEBUG - maxDirectMemory: 2116026368 bytes (maybe)
+2023-05-01 13:15:10 DEBUG - -Dio.netty.tmpdir: C:\Users\imran\AppData\Local\Temp (java.io.tmpdir)
+2023-05-01 13:15:10 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-05-01 13:15:10 DEBUG - Platform: Windows
+2023-05-01 13:15:10 DEBUG - -Dio.netty.maxDirectMemory: -1 bytes
+2023-05-01 13:15:10 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-05-01 13:15:10 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2023-05-01 13:15:10 DEBUG - -Dio.netty.noPreferDirect: false
+2023-05-01 13:15:10 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2023-05-01 13:15:10 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-05-01 13:15:10 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-05-01 13:15:10 DEBUG - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-05-01 13:15:10 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-05-01 13:15:10 DEBUG - -Dio.netty.eventLoopThreads: 8
+2023-05-01 13:15:10 DEBUG - -Dio.netty.noKeySetOptimization: false
+2023-05-01 13:15:10 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-05-01 13:15:10 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2023-05-01 13:15:10 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2023-05-01 13:15:10 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2023-05-01 13:15:10 DEBUG - -Dio.netty.allocator.maxOrder: 9
+2023-05-01 13:15:10 DEBUG - -Dio.netty.allocator.chunkSize: 4194304
+2023-05-01 13:15:10 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2023-05-01 13:15:10 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2023-05-01 13:15:10 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-05-01 13:15:10 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-05-01 13:15:10 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-05-01 13:15:10 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-05-01 13:15:10 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-05-01 13:15:10 DEBUG - -Dio.netty.allocator.type: pooled
+2023-05-01 13:15:10 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-05-01 13:15:10 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-05-01 13:15:10 DEBUG - -Dio.netty.processId: 19488 (auto-detected)
+2023-05-01 13:15:10 DEBUG - -Djava.net.preferIPv4Stack: false
+2023-05-01 13:15:10 DEBUG - -Djava.net.preferIPv6Addresses: false
+2023-05-01 13:15:11 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-05-01 13:15:11 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-05-01 13:15:11 DEBUG - -Dio.netty.machineId: 64:80:99:ff:fe:d8:bc:e2 (auto-detected)
+2023-05-01 13:15:11 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2023-05-01 13:15:11 DEBUG - -Dio.netty.buffer.checkBounds: true
+2023-05-01 13:15:11 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7309637d
+2023-05-01 13:15:11 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-05-01 13:15:11 DEBUG - -Dio.netty.recycler.ratio: 8
+2023-05-01 13:15:11 DEBUG - -Dio.netty.recycler.chunkSize: 32
+2023-05-01 13:15:11 DEBUG - -Dio.netty.recycler.blocking: false
+2023-05-01 13:15:13 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-05-01 13:15:13 DEBUG - -Dio.netty.initialSeedUniquifier: 0x4a2a2f14a3b1072f
+2023-05-01 13:15:13 DEBUG - Set '15' timeout in seconds for loading of pages
+2023-05-01 13:15:13 DEBUG - Set async javascript execution timeout '10' in seconds
+2023-05-01 13:15:13 INFO  - Browser 'CHROME' ready...
+2023-05-01 13:15:13 INFO  - Maximizing browser window
+2023-05-01 13:15:13 INFO  - Navigate to url - 'https://userinyerface.com/'
+2023-05-01 13:15:15 INFO  - Waiting for page to load
+2023-05-01 13:15:15 INFO  - Login Page Test starting
+2023-05-01 13:15:15 INFO  - Button 'Start Button' :: Clicking
+2023-05-01 13:15:16 INFO  - Waiting for page to load
+2023-05-01 13:15:16 INFO  - First Login Page Test starting
+2023-05-01 13:15:16 INFO  - Input Login Info
+2023-05-01 13:15:16 INFO  - Text Field 'Password Fields' :: Clearing
+2023-05-01 13:15:16 INFO  - Text Field 'Password Fields' :: Typing 'цBY0vCCHCq8'
+2023-05-01 13:15:17 INFO  - Text Field 'Email Field' :: Clearing
+2023-05-01 13:15:17 INFO  - Text Field 'Email Field' :: Typing 'sQzsGqkbfk'
+2023-05-01 13:15:17 INFO  - Text Field 'Domain Field' :: Clearing
+2023-05-01 13:15:17 INFO  - Text Field 'Domain Field' :: Typing 'aol'
+2023-05-01 13:15:17 INFO  - Button 'Drop Down' :: Clicking
+2023-05-01 13:15:17 INFO  - ComboBox 'element 9' :: Clicking
+2023-05-01 13:15:17 INFO  - CheckBox 'Check Box' :: Clicking
+2023-05-01 13:15:18 INFO  - Button 'Next Button' :: Clicking
+2023-05-01 13:15:18 INFO  - Second Login Page Test starting
+2023-05-01 13:15:18 INFO  - Button 'Upload Image Button' :: Clicking
+2023-05-01 13:15:18 INFO  - Waiting for page to load
+2023-05-01 13:15:21 INFO  - CheckBox 'Unselect All' :: Scrolling via JavaScript
+2023-05-01 13:15:22 INFO  - CheckBox 'Unselect All' :: Clicking
+2023-05-01 13:15:22 INFO  - CheckBox 'element 2' :: Clicking
+2023-05-01 13:15:22 INFO  - CheckBox 'element 13' :: Clicking
+2023-05-01 13:15:22 INFO  - Button 'Next Button' :: Clicking
+2023-05-01 13:15:22 INFO  - Third Login Page Test starting
+2023-05-01 13:15:22 DEBUG - No elements with locator 'By.xpath: //div[@class='page-indicator' and contains(text(), '3 / 4')]' were found in DISPLAYED state
+2023-05-01 13:15:22 INFO  - Maximizing browser window
+2023-05-01 13:15:22 INFO  - Navigate to url - 'https://userinyerface.com/'
+2023-05-01 13:15:23 INFO  - Waiting for page to load
+2023-05-01 13:15:23 INFO  - Hide Help Test starting
+2023-05-01 13:15:23 INFO  - Button 'Start Button' :: Clicking
+2023-05-01 13:15:23 INFO  - Waiting for page to load
+2023-05-01 13:15:23 INFO  - Button 'Send To Bottom Button' :: Clicking
+2023-05-01 13:15:23 INFO  - Text Field 'Hidden Help Form' :: Waiting for element to be invisible or absent
+2023-05-01 13:15:25 DEBUG - No elements with locator 'By.xpath: //h2[contains(@class, 'help-form__title')]' were found in DISPLAYED state
+2023-05-01 13:15:25 INFO  - Hide Help Successfully Tested
+2023-05-01 13:15:25 INFO  - Maximizing browser window
+2023-05-01 13:15:25 INFO  - Maximizing browser window
+2023-05-01 13:15:58 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2023-05-01 13:15:58 DEBUG - Using Log4J2 as the default logging framework
+2023-05-01 13:15:58 DEBUG - -Dio.netty.leakDetection.level: simple
+2023-05-01 13:15:58 DEBUG - -Dio.netty.leakDetection.targetRecords: 4
+2023-05-01 13:15:58 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3f725306
+2023-05-01 13:15:58 DEBUG - -Dio.netty.noUnsafe: false
+2023-05-01 13:15:58 DEBUG - Java version: 17
+2023-05-01 13:15:58 DEBUG - sun.misc.Unsafe.theUnsafe: available
+2023-05-01 13:15:58 DEBUG - sun.misc.Unsafe.copyMemory: available
+2023-05-01 13:15:58 DEBUG - sun.misc.Unsafe.storeFence: available
+2023-05-01 13:15:58 DEBUG - java.nio.Buffer.address: available
+2023-05-01 13:15:58 DEBUG - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-05-01 13:15:58 DEBUG - java.nio.Bits.unaligned: available, true
+2023-05-01 13:15:58 DEBUG - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @735b478
+2023-05-01 13:15:58 DEBUG - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-05-01 13:15:58 DEBUG - sun.misc.Unsafe: available
+2023-05-01 13:15:58 DEBUG - maxDirectMemory: 2116026368 bytes (maybe)
+2023-05-01 13:15:58 DEBUG - -Dio.netty.tmpdir: C:\Users\imran\AppData\Local\Temp (java.io.tmpdir)
+2023-05-01 13:15:58 DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-05-01 13:15:58 DEBUG - Platform: Windows
+2023-05-01 13:15:58 DEBUG - -Dio.netty.maxDirectMemory: -1 bytes
+2023-05-01 13:15:58 DEBUG - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-05-01 13:15:58 DEBUG - java.nio.ByteBuffer.cleaner(): available
+2023-05-01 13:15:58 DEBUG - -Dio.netty.noPreferDirect: false
+2023-05-01 13:15:58 DEBUG - org.jctools-core.MpscChunkedArrayQueue: available
+2023-05-01 13:15:58 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-05-01 13:15:58 DEBUG - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-05-01 13:15:58 DEBUG - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-05-01 13:15:58 DEBUG - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-05-01 13:15:58 DEBUG - -Dio.netty.eventLoopThreads: 8
+2023-05-01 13:15:58 DEBUG - -Dio.netty.noKeySetOptimization: false
+2023-05-01 13:15:58 DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-05-01 13:15:58 DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2023-05-01 13:15:58 DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2023-05-01 13:15:58 DEBUG - -Dio.netty.allocator.pageSize: 8192
+2023-05-01 13:15:58 DEBUG - -Dio.netty.allocator.maxOrder: 9
+2023-05-01 13:15:58 DEBUG - -Dio.netty.allocator.chunkSize: 4194304
+2023-05-01 13:15:58 DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2023-05-01 13:15:58 DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2023-05-01 13:15:58 DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-05-01 13:15:58 DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-05-01 13:15:58 DEBUG - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-05-01 13:15:58 DEBUG - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-05-01 13:15:58 DEBUG - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-05-01 13:15:58 DEBUG - -Dio.netty.allocator.type: pooled
+2023-05-01 13:15:58 DEBUG - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-05-01 13:15:58 DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-05-01 13:15:59 DEBUG - -Dio.netty.processId: 17092 (auto-detected)
+2023-05-01 13:15:59 DEBUG - -Djava.net.preferIPv4Stack: false
+2023-05-01 13:15:59 DEBUG - -Djava.net.preferIPv6Addresses: false
+2023-05-01 13:15:59 DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-05-01 13:15:59 DEBUG - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-05-01 13:15:59 DEBUG - -Dio.netty.machineId: 64:80:99:ff:fe:d8:bc:e2 (auto-detected)
+2023-05-01 13:15:59 DEBUG - -Dio.netty.buffer.checkAccessible: true
+2023-05-01 13:15:59 DEBUG - -Dio.netty.buffer.checkBounds: true
+2023-05-01 13:15:59 DEBUG - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@639605e6
+2023-05-01 13:15:59 DEBUG - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-05-01 13:15:59 DEBUG - -Dio.netty.recycler.ratio: 8
+2023-05-01 13:15:59 DEBUG - -Dio.netty.recycler.chunkSize: 32
+2023-05-01 13:15:59 DEBUG - -Dio.netty.recycler.blocking: false
+2023-05-01 13:16:01 DEBUG - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-05-01 13:16:02 DEBUG - -Dio.netty.initialSeedUniquifier: 0xa4104b4c2864d2cf
+2023-05-01 13:16:02 DEBUG - Set '15' timeout in seconds for loading of pages
+2023-05-01 13:16:02 DEBUG - Set async javascript execution timeout '10' in seconds
+2023-05-01 13:16:02 INFO  - Browser 'CHROME' ready...
+2023-05-01 13:16:02 INFO  - Maximizing browser window
+2023-05-01 13:16:02 INFO  - Navigate to url - 'https://userinyerface.com/'
+2023-05-01 13:16:07 INFO  - Waiting for page to load
+2023-05-01 13:16:07 INFO  - Login Page Test starting
+2023-05-01 13:16:07 INFO  - Button 'Start Button' :: Clicking
+2023-05-01 13:16:08 INFO  - Waiting for page to load
+2023-05-01 13:16:08 INFO  - First Login Page Test starting
+2023-05-01 13:16:08 INFO  - Input Login Info
+2023-05-01 13:16:08 INFO  - Text Field 'Password Fields' :: Clearing
+2023-05-01 13:16:08 INFO  - Text Field 'Password Fields' :: Typing 'ElMfиZDS9Q9'
+2023-05-01 13:16:08 INFO  - Text Field 'Email Field' :: Clearing
+2023-05-01 13:16:08 INFO  - Text Field 'Email Field' :: Typing 'kDxRcyhSwr'
+2023-05-01 13:16:09 INFO  - Text Field 'Domain Field' :: Clearing
+2023-05-01 13:16:09 INFO  - Text Field 'Domain Field' :: Typing 'gmail'
+2023-05-01 13:16:09 INFO  - Button 'Drop Down' :: Clicking
+2023-05-01 13:16:10 INFO  - ComboBox 'element 4' :: Clicking
+2023-05-01 13:16:10 INFO  - CheckBox 'Check Box' :: Clicking
+2023-05-01 13:16:10 INFO  - Button 'Next Button' :: Clicking
+2023-05-01 13:16:10 INFO  - Second Login Page Test starting
+2023-05-01 13:16:10 INFO  - Button 'Upload Image Button' :: Clicking
+2023-05-01 13:16:11 INFO  - Waiting for page to load
+2023-05-01 13:16:14 INFO  - CheckBox 'Unselect All' :: Scrolling via JavaScript
+2023-05-01 13:16:14 INFO  - CheckBox 'Unselect All' :: Clicking
+2023-05-01 13:16:15 INFO  - CheckBox 'element 15' :: Clicking
+2023-05-01 13:16:15 INFO  - CheckBox 'element 17' :: Clicking
+2023-05-01 13:16:15 INFO  - CheckBox 'element 2' :: Clicking
+2023-05-01 13:16:15 INFO  - Button 'Next Button' :: Clicking
+2023-05-01 13:16:16 INFO  - Third Login Page Test starting
+2023-05-01 13:16:16 INFO  - Login Page Successfully Tested
+2023-05-01 13:16:16 INFO  - Maximizing browser window
+2023-05-01 13:16:16 INFO  - Navigate to url - 'https://userinyerface.com/'
+2023-05-01 13:16:16 INFO  - Waiting for page to load
+2023-05-01 13:16:16 INFO  - Hide Help Test starting
+2023-05-01 13:16:16 INFO  - Button 'Start Button' :: Clicking
+2023-05-01 13:16:16 INFO  - Waiting for page to load
+2023-05-01 13:16:16 INFO  - Button 'Send To Bottom Button' :: Clicking
+2023-05-01 13:16:17 INFO  - Text Field 'Hidden Help Form' :: Waiting for element to be invisible or absent
+2023-05-01 13:16:28 DEBUG - Elements were found by locator 'By.xpath: //h2[contains(@class, 'help-form__title')]' but not in desired state DISPLAYED
+2023-05-01 13:16:28 INFO  - Hide Help Successfully Tested
+2023-05-01 13:16:28 INFO  - Maximizing browser window
+2023-05-01 13:16:28 INFO  - Navigate to url - 'https://userinyerface.com/'
+2023-05-01 13:16:29 INFO  - Waiting for page to load
+2023-05-01 13:16:29 INFO  - Accept Cookies Test starting
+2023-05-01 13:16:29 INFO  - Button 'Start Button' :: Clicking
+2023-05-01 13:16:29 INFO  - Waiting for page to load
+2023-05-01 13:16:29 INFO  - Label 'Cookies Form' :: Waiting for element to be displayed
+2023-05-01 13:16:31 INFO  - Button 'Accept Cookies Button' :: Clicking
+2023-05-01 13:16:31 DEBUG - No elements with locator 'By.className: cookies' were found in DISPLAYED state
+2023-05-01 13:16:31 INFO  - Accept Cookies Successfully Tested
+2023-05-01 13:16:31 INFO  - Maximizing browser window
+2023-05-01 13:16:31 INFO  - Navigate to url - 'https://userinyerface.com/'
+2023-05-01 13:16:32 INFO  - Waiting for page to load
+2023-05-01 13:16:32 INFO  - Timer Test starting
+2023-05-01 13:16:32 INFO  - Label 'homepage' :: Waiting for element to be displayed
+2023-05-01 13:16:32 INFO  - Button 'Start Button' :: Clicking
+2023-05-01 13:16:32 INFO  - Waiting for page to load
+2023-05-01 13:16:32 INFO  - Label 'First Login Page' :: Waiting for element to be displayed
+2023-05-01 13:16:32 INFO  - Text Field 'Timer Box' :: Getting text from element
+2023-05-01 13:16:32 INFO  - Text Field 'Timer Box' :: Element's text: [00:00:00]
+2023-05-01 13:16:32 INFO  - Timer successfully Tested
