@@ -1,7 +1,0 @@
-{
-  "image": "./src/test/resources/download.png",
-  "timer": "00:00:00",
-  "numberOfInterests": "3",
-  "lengthOfPassword": "10",
-  "emailLength": "10"
-}
