@@ -4,9 +4,9 @@ Main aim of the project was to create set of auto tests for [Userinyerface.com](
 
 ## Technologies
 Project is created with:
--	Java 12
--	Selenium  / Aquality Selenium 3.1.0
--	TestNG 7.6.1
-- Passay 1.6.2
+-	Java 17
+-	Selenium  / Aquality Selenium 4.0.0
+-	TestNG 7.7.1
+- Passay 1.6.3
 - Robot Framework
 
