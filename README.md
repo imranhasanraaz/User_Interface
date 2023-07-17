@@ -9,4 +9,5 @@ Project is created with:
 -	Selenium  / Aquality Selenium 3.1.0
 -	TestNG 7.6.1
 - Passay 1.6.2
+- Robot Framework
 
